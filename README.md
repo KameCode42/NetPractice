@@ -29,8 +29,25 @@ Quand toutes les machines peuvent se connecter, l’exercice est validé.
 Adresses IP : <br>
 Une adresse IP identifie de manière unique un appareil sur un réseau.
 - IPv4 : format le plus courant, composé de 4 octets (ex. 192.168.0.1).
-- Rôle : permettre l’envoi et la réception de données sur un réseau.
-
+- Rôle : permettre l’envoi et la réception de données sur un réseau. <br>
 Chaque IP se compose de deux parties :
 - Partie réseau : identifie le réseau auquel l’hôte appartient.
 - Partie hôte : identifie la machine dans ce réseau.
+
+Masques de sous-réseau : <br>
+Le masque de sous-réseau détermine quelle partie de l’IP correspond au réseau et quelle partie correspond à l’hôte.
+- Exemple : 255.255.255.0 → les 3 premiers octets pour le réseau, le dernier pour les hôtes.
+- Utilité : découper un réseau en sous-réseaux pour mieux gérer la connectivité et la sécurité.
+- Notation : /24 équivaut à 255.255.255.0.
+
+Passerelles : <br>
+Une passerelle est un point d’accès qui permet de sortir de son réseau local vers un autre réseau (ex. Internet).
+- Sert d’intermédiaire entre deux réseaux.
+- En général, la passerelle est l’adresse IP du routeur du réseau.
+- Sans passerelle configurée, un appareil ne peut pas communiquer avec un réseau extérieur.
+
+Routage & Connectivité : <br>
+Le routage est le processus qui permet de faire transiter les données d’un réseau à un autre via des routes.
+- Route statique : configuration manuelle des chemins à suivre.
+- Route dynamique : déterminée automatiquement par des protocoles de routage.
+- Connectivité : capacité d’un appareil à atteindre un autre, testée par des outils comme ping ou traceroute.
