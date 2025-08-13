@@ -27,4 +27,5 @@ Quand toutes les machines peuvent se connecter, l’exercice est validé.
 # Exemple :
 - Machine A : 192.168.1.1 / 255.255.255.0
 - Machine B : 192.168.1.2 / 255.255.255.0
+
 Les deux machines peuvent communiquer (même réseau).
