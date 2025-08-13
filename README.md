@@ -26,7 +26,7 @@ Quand toutes les machines peuvent se connecter, l’exercice est validé.
 
 # Explications :
 
-Adresses IP :
+Adresses IP : <br>
 Une adresse IP identifie de manière unique un appareil sur un réseau.
 - IPv4 : format le plus courant, composé de 4 octets (ex. 192.168.0.1).
 - Rôle : permettre l’envoi et la réception de données sur un réseau.
