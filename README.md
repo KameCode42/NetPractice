@@ -24,8 +24,13 @@ Il faut entrer :
 
 Quand toutes les machines peuvent se connecter, l’exercice est validé.
 
-# Exemple :
-- Machine A : 192.168.1.1 / 255.255.255.0
-- Machine B : 192.168.1.2 / 255.255.255.0
+# Explications :
 
-Les deux machines peuvent communiquer (même réseau).
+Adresses IP :
+Une adresse IP identifie de manière unique un appareil sur un réseau.
+- IPv4 : format le plus courant, composé de 4 octets (ex. 192.168.0.1).
+- Rôle : permettre l’envoi et la réception de données sur un réseau.
+
+Chaque IP se compose de deux parties :
+- Partie réseau : identifie le réseau auquel l’hôte appartient.
+- Partie hôte : identifie la machine dans ce réseau.
