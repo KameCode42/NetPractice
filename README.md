@@ -1,3 +1,4 @@
+<img width="720" height="720" alt="Image" src="https://github.com/user-attachments/assets/3df593cf-c98c-4420-8aab-f36e82cfd89b" />
 
 # Sujet :
 NetPractice est un projet d’entraînement à la configuration réseau.
